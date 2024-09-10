@@ -1,5 +1,5 @@
 // 지원하는 언어 코드 타입 정의
-type Locale = "en" | "fr" | "th"; // 지원하는 언어 코드 목록
+export type Locale = "en" | "fr" | "th"; // 지원하는 언어 코드 목록
 
 // 설정 타입 정의
 interface I18nConfig {
